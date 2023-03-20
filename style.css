@@ -1,0 +1,102 @@
+header {
+  padding: 50px;
+  background-image: url(imagen/pexels-mike-b-132549.jpg);
+}
+header h1 {
+  color: black;
+  align-items: center;
+  padding-top: 30px;
+}
+header nav {
+  color: black;
+  margin-top: 200px;
+  font-size: x-large;
+}
+header a {
+  color: black;
+}
+
+.article {
+  border: none;
+  overflow: hidden;
+  align-items: center;
+  background-color: rgb(76, 75, 73);
+  color: white;
+}
+.article h2 {
+  padding-top: 100px;
+  display: flex;
+}
+.article #primero {
+  width: 400px;
+  height: 600px;
+  float: left;
+  border: none;
+}
+.article #segundo {
+  border: none;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  padding-top: 100px !important;
+  padding-left: 100px !important;
+  padding-right: 100px;
+  display: flex;
+}
+.article h2 {
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  display: flex;
+}
+
+.container2 {
+  background-image: url(imagen/mblogo.jpeg);
+  display: flex;
+  align-items: center;
+  height: 400px;
+  justify-content: space-between;
+}
+
+.icons {
+  display: flex;
+  font-size: xx-large;
+  margin: auto;
+  justify-items: center;
+  padding-bottom: 0%;
+  gap: 80px;
+}
+.icons i {
+  color: white;
+}
+
+.map {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: x-large;
+}
+
+.ns {
+  color: white;
+  text-align: justify;
+  text-align: left;
+  width: 50%;
+  padding-right: 60px;
+  padding-left: 50px;
+}
+
+.c {
+  color: white;
+  text-align: justify;
+  text-align: left;
+  width: 50%;
+  padding-right: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  /* Mobile devices */
+}
+@media screen and (min-width: 769px) {
+  /* Computer */
+}/*# sourceMappingURL=style.css.map */

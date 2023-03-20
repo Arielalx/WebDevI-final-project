@@ -1,0 +1,127 @@
+header{
+    padding: 50px;
+    background-image: url(imagen/pexels-mike-b-132549.jpg);
+    // height: 700px;
+    // width: 1670px;
+    
+    h1{
+        color: black;
+        align-items: center;
+        padding-top: 30px;
+    }
+    nav{
+        color: black;
+        margin-top: 200px;
+        font-size: x-large;
+    };
+    a{
+        color: black;
+    }
+}
+
+.article{
+    // padding-top: 100px;
+    border: none;
+    overflow: hidden;
+    align-items: center;
+    background-color: rgb(76,75,73);
+    color: white;
+   
+    
+    h2{
+        padding-top: 100px;
+        display: flex;
+    }
+
+    #primero{
+        width: 400px;
+        height: 600px;
+        float:left;
+        border: none;
+        // display: flex;
+        
+    }
+    #segundo{
+        border: none;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        padding-top:100px !important;
+        padding-left: 100px !important;
+        padding-right: 100px;
+        display: flex;
+    }
+    h2{
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+        display: flex;
+    }
+
+}
+.container2{
+    background-image: url(imagen/mblogo.jpeg);
+    // border: 20px solid black;
+    display: flex;
+    align-items: center;
+    height: 400px;
+    justify-content: space-between;
+    // opacity:150%
+
+}
+
+.icons{
+    // width: 350px;
+    // height: 350px;
+    display: flex;
+    // justify-content: space-between;
+    font-size: xx-large;
+    margin: auto;
+    justify-items: center;
+    padding-bottom: 0%;
+    gap: 80px;
+    i{
+        color: white;
+    }
+}
+
+.map{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: x-large;
+    
+}
+
+.ns{
+    color: white;
+    text-align: justify;
+    text-align: left;
+    // float:left;
+    width: 50%;
+    padding-right: 60px;
+    padding-left: 50px;
+}
+.c{
+    color: white;
+    text-align: justify;
+    text-align: left;
+    // float:left;
+    width: 50%;
+    padding-right: 100px;
+}
+
+// footer{
+//     background-image: url(imagen/mbfooter.jpg);
+//     padding-bottom: 0%;
+//     background-repeat: no-repeat;
+//     height: 600px;
+    
+//     width: 1670px;
+// }
+@media screen and (max-width: 768px) {
+    /* Mobile devices */
+}
+@media screen and (min-width: 769px) {
+    /* Computer */
+}
